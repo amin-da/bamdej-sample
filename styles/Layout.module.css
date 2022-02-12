@@ -1,0 +1,42 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center;
+}
+.navbar_logo {
+  width: 13rem;
+  height: 4rem;
+  cursor: pointer;
+}
+.navbar_menu {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.navbar_menu li {
+  cursor: pointer;
+  list-style: none;
+}
+
+.navbar_menu li:hover {
+  font-weight: bold;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  height: 17rem;
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer img {
+  height: 6rem;
+  cursor: pointer;
+}
+

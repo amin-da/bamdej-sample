@@ -1,0 +1,22 @@
+html,
+body {
+  padding: 0;
+  margin: 0 auto;
+  display: table;
+  font-family: "sahel", sans-serif;
+  direction: rtl;
+  justify-content: center;
+  background: #eff0f5;
+  min-height: 100vh;
+  width: 100%;
+  color: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
